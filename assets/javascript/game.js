@@ -29,24 +29,24 @@ var reset = function() {
     $('.number').empty();
     $('.number').append(number);
 
-    red = Math.floor((Math.random()* 12)+ 1);
-    green = Math.floor((Math.random()* 12)+ 1);
-    purple = Math.floor((Math.random()* 12)+ 1);
-    mango = Math.floor((Math.random()* 12)+ 1);
+    red = Math.floor((Math.random()* 12) + 1);
+    green = Math.floor((Math.random()* 12) + 1);
+    purple = Math.floor((Math.random()* 12) + 1);
+    mango = Math.floor((Math.random()* 12) + 1);
     configmath();
 }
 
 var config = function() {
-    if (math === number) {
-        wins = wins = 1;
+    if (math == number) {
+        wins = wins + 1;
         reset();
     } else if (math > number) {
-        losses = losses = 1;
+        losses = losses + 1;
         reset();
     } else {
         configmath();
-    }
-}
+    }}
+
 
     $('.math').append(math);
     $('.number').append(number);

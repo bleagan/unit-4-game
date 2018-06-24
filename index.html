@@ -3,13 +3,10 @@
 <head>
 <title>Crystal Collector</title>
 <meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<script
-  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-  crossorigin="anonymous"></script>
-</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <body>
     
     <div class="container">
@@ -27,6 +24,10 @@
 
     <div class="random">
         <div class="number"</div>
+            <div class="target">
+                <p>Target Number:</p>
+            </div>
+    </div>
 
     <div class="outcome">
         Wins:<div id="wins"></div>
@@ -34,14 +35,14 @@
     </div>
 
     <div class="power">
-       <img src="assets/images/red-crystal.jpg" class="click" id="red">
-       <img src="assets/images/green-crystal.jpg" class="click" id="green">
-       <img src="assets/images/purple-crystal.jpg" class="click" id="purple">
-       <img src="assets/images/mango-crystal.jpg" class="click" id="mango">
-    </div>
+            <img src="assets/images/red-crystal.jpg" class="click" id="red">
+            <img src="assets/images/green-crystal.jpg" class="click" id="green">
+            <img src="assets/images/purple-crystal.jpg" class="click" id="purple">
+            <img src="assets/images/mango-crystal.jpg" class="click" id="mango">
+        </div>
 
     <div class="score">
-        <h3>Your total score is:</h3>
+        <h3>Crystal Power Value:</h3>
     </div>
 
     <div class="math"></div>
