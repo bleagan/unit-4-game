@@ -13,38 +13,43 @@ body {
 
 .instructions {
     color: white;
+    font-size: 12px;
 }
 
 .random {
     display: inline-block;
     width: 300px;
     height: 100px;
+    margin-top: 30px;
 }
 
 .number {
     background-color: chartreuse;
     text-align: center;
     font-size: 50px;
-    margin-right: 10px;
+    margin-right: 20px;
     width: 120px;
     height: 100px;
     color: red;
-}
-
-.power > * {
-    display: inline-block;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 30px;
 }
 
 .outcome {
     background-color: rgb(255, 149, 0);
-    margin-left: 130px;
+    margin-left: 200px;
     margin-top: 0px;
     text-align: center;
     width: 150px;
-    height: 100px;
+    height: 110px;
     color: white;
+    font-size: 20px;
+    
+}
+
+.power > * {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
     
 }
 
@@ -74,9 +79,11 @@ h3 {
     width: 300px;
     height: 75;
     margin-left: 10%;
+    margin-bottom: 20px;
 }
 
 .target {
     font-size: 15px;
-    color: rgb(0, 118, 236);
+    color: rgb(20, 236, 42);
+    margin-left: 30px;
 }

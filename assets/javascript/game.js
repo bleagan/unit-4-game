@@ -22,6 +22,7 @@ var configmath = function() {
 
 }
 
+// Reset the game //
 var reset = function() {
     math = 0;
     number = Math.floor((Math.random()* 100)+ 19);
@@ -36,6 +37,7 @@ var reset = function() {
     configmath();
 }
 
+// Do math until win or loss, then reset //
 var config = function() {
     if (math == number) {
         wins = wins + 1;
